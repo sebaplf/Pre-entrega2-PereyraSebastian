@@ -1,0 +1,408 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-color: rgb(175, 210, 216);
+  font-family: "montseerat", sans-serif;
+}
+
+main {
+  background-image: url(../img/men-sports-bicycle-sky-motorcycle-vehicle-111929-wallhere.com.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0%;
+  padding: 11%;
+}
+
+img {
+  width: 200px;
+  height: 700px;
+  border-radius: 15px;
+  justify-content: flex-end;
+}
+
+.fotoin {
+  width: 223px;
+  height: 242px;
+  border-radius: 15px;
+  justify-content: flex-end;
+}
+
+.card-img-top {
+  height: 200px;
+  justify-content: flex-end;
+}
+
+.artoculocontenido p {
+  text-align: none;
+  margin: 2%;
+  padding: 2%;
+}
+
+/***menu***/
+
+.barranav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 15px;
+    align-items: center;
+    justify-items: center;
+}
+
+.barranav__items {
+  display: inline-block;
+}
+
+.linknav {
+  color: rgb(11, 11, 12);
+  display: inline-block;
+  
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+}
+
+.submenu__items {
+  padding: 10px;
+}
+
+.submenu__items a {
+  color: rgb(12, 5, 1);
+}
+
+.barranav__items:hover ul {
+  display: block;
+}
+
+.linknav:hover {
+  background-color: rgb(79, 48, 190);
+}
+
+/***home***/
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.articulo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.articulocontenido {
+  
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  background-color: rgba(7, 125, 204, 0.438);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+/***footer***/
+
+footer {
+  width: 100%;
+  background-color: rgb(27, 117, 177);
+  font-weight: bold;
+  margin-top: 2rem;
+  border: rgb(202, 194, 186);
+}
+
+footer p {
+  text-align: center;
+  background-color: rgb(175, 210, 216);
+  color: rgb(88, 87, 81);
+  margin: 0%;
+  padding: 2%;
+}
+
+/***formulario***/
+
+.formulario2 {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.form_contact {
+  padding-left: 40%;
+}
+
+form {
+  text-align: center;
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: rgb(168 212 217);
+}
+
+form label {
+  width: 72px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+form button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 2rem;
+  background-color: blueviolet;
+  border-radius: 5px;
+  display: block;
+  color: aliceblue;
+}
+
+p {
+  width: 100%;
+  padding: 10%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding: 7%;
+}
+
+h1 {
+  text-align: center;
+  padding: 1%;
+}
+
+/***utv***/
+
+.grid-container {
+  width: 100%;
+  height: 1136px;
+  display: grid;
+
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  background-color: rgb(113, 113, 216);
+  color: blue;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Inicio pantalla destopk */
+
+@media  (min-width:992px) {
+  main {
+    background-image: url(../img/men-sports-bicycle-sky-motorcycle-vehicle-111929-wallhere.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 11%;
+  }
+
+  img {
+    width: 200px;
+    height: 700px;
+    border-radius: 15px;
+    justify-content: flex-end;
+  }
+
+  .fotoin {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    justify-content: flex-end;
+  }
+
+  .card-img-top {
+    height: 200px;
+    justify-content: flex-end;
+  }
+
+  .artoculocontenido p {
+    text-align: none;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  /***menu***/
+
+  .barranav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
+  .barranav__items {
+    display: inline-block;
+  }
+
+  .linknav {
+    color: rgb(11, 11, 12);
+    display: inline-block;
+    padding: 20px;
+    font-size: 150%;
+  }
+
+  .submenu {
+    display: none;
+    position: absolute;
+  }
+
+  .submenu__items {
+    padding: 10px;
+  }
+
+  .submenu__items a {
+    color: rgb(12, 5, 1);
+  }
+
+  .barranav__items:hover ul {
+    display: block;
+  }
+
+  .linknav:hover {
+    background-color: rgb(79, 48, 190);
+  }
+
+  /***home***/
+
+  .contenido {
+    display: flex;
+    margin: 5rem;
+  }
+
+  .articulocontenido {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    background-color: rgba(7, 125, 204, 0.438);
+  }
+
+  /***footer***/
+
+  footer {
+    width: 100%;
+    background-color: rgb(27, 117, 177);
+    font-weight: bold;
+    margin-top: 2rem;
+    border: rgb(202, 194, 186);
+  }
+
+  footer p {
+    text-align: center;
+    background-color: rgb(175, 210, 216);
+    color: rgb(88, 87, 81);
+    margin: 0%;
+    padding: 2%;
+  }
+
+  /***formulario***/
+
+  .formulario2 {
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .form_contact {
+    padding-left: 40%;
+  }
+
+  form {
+    text-align: center;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: rgb(168 212 217);
+  }
+
+  form label {
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  form button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 2rem;
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: block;
+    color: aliceblue;
+  }
+
+  p {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 7%;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 1%;
+  }
+
+  /***utv***/
+
+  .grid-container {
+    width: 100%;
+    height: 1136px;
+    display: grid;
+
+    grid-template-areas:
+      "foto foto foto"
+      "foto foto foto"
+      "foto foto foto"
+      "foto foto foto";
+  }
+
+  h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    background-color: rgb(113, 113, 216);
+    color: blue;
+  }
+
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
